@@ -1,8 +1,10 @@
 .App {
-  display: flex;
-  justify-content: center;
+  margin: 30px auto;
 }
-
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
 label {
   font-weight: bold;
   display: flex;
@@ -24,7 +26,8 @@ textarea {
   border-radius: 4px;
   /* margin-bottom: 20px; */
 }
-
+.form {
+}
 .form-control {
   margin-bottom: 20px;
 }
